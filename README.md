@@ -1,30 +1,30 @@
 # myGIS
 
-Contains my contributions on the projects in Geospatial field.
+Contains my contributions on the several projects in **geospatial** field.
 
 ## 1. Master's Thesis
 
 ### 1.1. Aim
 
-- Smoke and Dust Particle Detection due to Forest Fire over a selected **area of interest** using satellite remote sensing images from NASA, ISRO.
+- Smoke and Dust Particle Detection due to Forest Fire over a selected **Areas of Interest (AOI)** using satellite imageries from remote sensors of NASA, ISRO.
 
 ### 1.2. Data
 
-- CALIPSO
-- MODIS
-- OMI
-- NOAA
-- MISR
+- CALIPSO:
+- MODIS:
+- OMI:
+- NOAA:
+- MISR:
 
 ### 1.3. Course of Action
 
-- Proof of forest fire
+- Check existence of forest fire
 
 - Land Surface Temperature (LST) of the area of interest
 
-- AOD
+- Aerosol Optical Depth (AOD)
 
-= Vertical Profiling
+- Vertical Feature Profiling of Atmosphere
 
 ### 1.4. Visualization
 
@@ -42,9 +42,15 @@ Contains my contributions on the projects in Geospatial field.
 
 > Biswas, Soubhik, Manu Mehta, and Arka Ghosh. "[Study of Aerosol Distribution in the Vertical Air Column of Atmosphere during Uttarakhand Forest Fires 2016](https://doi.org/10.1109/rteict42901.2018.9012355)." _In the 3rd International Conference on Recent Trendsin Electronics, Information and Communication Technology (RTEICT). IEEE_ 2018.
 
-## 2. Impact of Atmospheric Parameters over Snow Cover Meting of Himalayan Region
+## 2. Impact of Atmospheric Parameters over Snow Cover of Himalayan Region
 
 ### 2.1. Aim
+
+- How snow cover is changing (melting) with different atmospheric parameters e.g. aerosols at different altitude levels of our **area of interest - Hindu Kush Himalayan (HKH) Region**
+
+- Detection of dust and smoke aerosol presence at different altitude levels.
+
+- How much snow cover has been reduced or melted over past 10 years (2006-2017) and if there any relation due to presence of aerosols (if any).
 
 ### 2.2. Data
 
@@ -53,6 +59,12 @@ Contains my contributions on the projects in Geospatial field.
 **Raster Data** :
 
 ### 2.3. Course of Action
+
+- Compute and visualize snow cover distribution over Hindu Kush Himalayan (HKH) Region at differen t altitude levels. (1000-8000 meters)
+
+- Visualize aerosol distribution over the same region.
+
+- Compare distribution snow cover at different altitude levels with the aerosol present in the atmosphere and how they are changing.
 
 ### 2.4. Visualization
 
@@ -127,20 +139,31 @@ Slope of SST changes over Bay of Bengal and Mediterranean Sea.
 
 > Ghosh, Arka, Anirban Mukhopadhyay, Niloy Pramanick, Soubhik Biswas, Debashis Mitra, and Tuhin Ghosh. "[Interannual and intraannual comparative study of sea surface temperature distribution over the Bay of Bengal, the Arabian Sea, and the Mediterranean Sea within the time frame of 2003–18](https://doi.org/10.1016/B978-0-323-85195-4.00023-8)." _In Disaster Resilience and Sustainability, Elsevier_, 2021.
 
-## 5. Drought Risk Assessment Impacted by Climate Change
+## 5. Drought Risk Assessment due to impacts of Climate Change
 
 ### 5.1. Aim
 
-- Build a Spatial Decision Support System (SDSS) to
+- Built a Spatial Decision Support System (SDSS) to
   provide a real-time dynamic computation of relative
-  drought vulnerability index (RDVI) for selected areas of interest in India.
+  drought vulnerability index (RDVI) for selected areas of interest in India affected by by Climate Change.
 
 ### 5.2. Data
 
 ### 5.3. Course of Action
 
+- Drought analysis is to be carried out with drought indices like the
+
+  - Standardized Precipitation Index (<b>SPI</b>)
+  - Temperature Condition Index (<b>TCI</b>)
+  - Vegetation Condition Index (<b>VCI</b>)
+
+- <b>Mann-Kendall Test</b>
+  and <b> Sen Slope Estimator</b> was used for in-depth analysis of daily rainfall data
+  over <b>115 years (1901-2015)</b>.
+
 ### 5.4. Visualization
 
+Screenshots of Spatial Decision Support System (SDSS)
 <img src="./Visuals/SDSS_FINAL.png">
 
 <!-- <img src="./Visuals/SDSS_AOI.PNG">
@@ -152,9 +175,11 @@ Slope of SST changes over Bay of Bengal and Mediterranean Sea.
 
 > Soubhik Biswas, Ghosh, Arka, Niloy Pramanick, Anirban Mukhopadhyay and Sugata Hazra.. "[Spatial Decision Support System for Climate Change Impact Assessment in> Selected Blocks of Purulia and Bankura](https://imetsociety.org/wp-content/pdf/vayumandal/2020462/2020462_9.pdf)." _VayuMandal Publication, Vol 46, Issue 2, Indian Meteorological Society (IMS)_, 2020.
 
-## 6. Sea Ice Concentration over Hudson Bay, Canada
+## 6. Landfast Sea Ice Concentration over Hudson Bay, Canada
 
 ### 5.1. Aim
+
+- Comparative analysis of Canadian Ice Service ice charts to characterize the temporal and spatial variability of landfast sea ice (or fast ice) surrounding Hudson Bay from 2000 to 2019.
 
 ### 5.2. Data
 

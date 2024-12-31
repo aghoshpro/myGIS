@@ -230,7 +230,7 @@ Used the following python packages to extratc information
 
 - Check out the jupyter [notebook]()
 
-## 8. Semantic Querying Raster Data Integrated with Relational data using Knowledge Graoh (KG)
+## 8. Semantic Querying over Geo-spatial-temporal Raster Data by using Knowledge Graph (KG)
 
 ### 8.1. Aim
 
@@ -245,16 +245,16 @@ Used the following python packages to extratc information
 - 3DCityGML LOD2 Buildings Data
 - 5 Types of Raster data
 
-<img src="./Visuals/AOIMunich02.PNG">
+<img src="./Visuals/AOIMunich04.PNG">
 
 ### 8.3. Course of Action
 
-Using our developed novel VKG framework [OntoRaster](https://github.com/aghoshpro/OntoRaster.git), we integrate and query the combined data without writing any ad-hoc script (in python or R) to access the different disparate formated geospatial data with minimal amount domain knowledge.
+Using our developed novel _Virtual Knowledge Graph (VKG)_ framework [OntoRaster](https://github.com/aghoshpro/OntoRaster.git), we integrate and query the combined data without writing any ad-hoc script (in python or R) to access the different disparate formated geospatial data with minimal amount domain knowledge.
 
 - OntoRaster can be applied to any arbritary geospatial data inclding the aforementioned data but limited to.
 
 ### 8.4. Visualization
 
-Here one can see the RasSPARQL queries (SPARQL of Raster) in action.
+Here one can see the RasSPARQL queries in action.
 
 <img src="./Visuals/Munich02.gif">

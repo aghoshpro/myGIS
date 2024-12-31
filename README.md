@@ -1,4 +1,4 @@
-# myGIS
+# myGIS Projects
 
 Contains my contributions on the several projects in **geospatial** field.
 
@@ -115,7 +115,7 @@ Following figure depicts all 14 major river basins of India as areas of interest
 
 <!-- > Ghosh, Arka, Manu Mehta, Soubhik Biswas, Mahak Gumber, and Meghna Mittal. "[Absorbing Aerosol Levels Across The Central And Western Himalayan Region–A Remote Sensing Approach](https://doi.org/10.5194/isprs-archives-XLII-5-519-2018)." _The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences pp-519-522 (v42)_ 2018. -->
 
-## 4. Change in Sea Surface Temperature (SST) Distribution
+## 4. Seasonal Change in Sea Surface Temperature (SST) Distribution
 
 ### 4.1. Aim
 
@@ -177,19 +177,19 @@ Screenshots of Spatial Decision Support System (SDSS)
 
 ## 6. Landfast Sea Ice Concentration over Hudson Bay, Canada
 
-### 5.1. Aim
+### 6.1. Aim
 
 - Comparative analysis of Canadian Ice Service ice charts to characterize the temporal and spatial variability of landfast sea ice (or fast ice) surrounding Hudson Bay from 2000 to 2019.
 
-### 5.2. Data
+### 6.2. Data
 
 - [Jason 1](https://www.aviso.altimetry.fr/en/missions/past-missions/jason-1.html)
 - [Jason 2](https://www.aviso.altimetry.fr/en/missions/past-missions/jason-2.html)
 - [Jason 3](https://www.aviso.altimetry.fr/en/missions/current-missions/jason-3/objectives.html)
 
-### 5.3. Course of Action
+### 6.3. Course of Action
 
-### 5.4. Visualization
+### 6.4. Visualization
 
 <img src="./Visuals/Hudson_Bathymetry_2002 (1).png">
 
@@ -198,4 +198,63 @@ Screenshots of Spatial Decision Support System (SDSS)
 <img src="./Visuals/SDSS_01.PNG">
 <img src="./Visuals/SDSS_02.PNG"> -->
 
-## Off to PhD in Europe 🌍 ✈
+# Off to PhD in Europe 🌍 ✈
+
+## 7. GeoVisual Analytics (using Pyyhon)
+
+### 7.1. Aim
+
+- Accessing geospatial raster data i.e., `precipitation` represented in`netcdf` and `geotiff` format through `xarray` to analysis them and plot stunning visalisation using matplotlib and seaborn to potray the knowledge behind those satellite raster images.
+
+- I extracted daily data, find monthly totals, find spatial average of precipitation in a given domain, plot the results, and save the outputs as netcdf files
+
+### 7.2. Data
+
+- Gridded precipitation data (from CPC)
+- CPC Unified Gauge-Based Analysis of Daily Precipitation over CONUS[link](https://psl.noaa.gov/data/gridded/data.unified.daily.conus.html)
+
+### 7.3. Course of Action
+
+Used the following python packages to extratc information
+
+- numpy
+- pandas
+- geopandas
+- xarray
+- rasterio
+- rioxarray
+- netcdf5
+- shapely
+
+### 7.4. Visualization
+
+- Check out the jupyter [notebook]()
+
+## 8. Semantic Querying Raster Data Integrated with Relational data using Knowledge Graoh (KG)
+
+### 8.1. Aim
+
+**Query** - List all the 30 meters tall residentials in Munich where average terrain elevation less than 550 meters and average land surface temperature is over 300K, given the following data.
+
+**NOTE** - Provided that one dont know (or minimally) any required domain knowledge reagrding the geospatial satellite data or database technology.
+
+### 8.2. Data
+
+- Vector Data (Munich's 25 distrcts and 105 sub-districts)
+- OpenStreetMap Buildings Data
+- 3DCityGML LOD2 Buildings Data
+- 5 Types of Raster data
+
+<img src="./Visuals/AOIMunich02.PNG">
+
+### 8.3. Course of Action
+
+Using our developed novel VKG framework [OntoRaster](https://github.com/aghoshpro/OntoRaster.git), we integrate and query the combined data without writing any ad-hoc script (in python or R) to access the different disparate formated geospatial data with minimal amount domain knowledge.
+
+- OntoRaster can be applied to any arbritary geospatial data inclding the aforementioned data but limited to.
+
+### 8.4. Visualization
+
+Here one can see the RasSPARQL queries (SPARQL of Raster) in action.
+
+<img src="./Visuals/Munich02.gif">

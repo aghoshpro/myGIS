@@ -1,6 +1,6 @@
-# myGIS Projects
+# Geographic Information System (GIS) Projects
 
-Contains my contributions on the several projects in **geospatial** field.
+Contains my contributions on the several projects in **GeoInformatics** field powered by my theoritical knowledge and working proficiency in computer science (CS) and GIS.
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@ Contains my contributions on the several projects in **geospatial** field.
 5. [Drought Risk Assessment due to impacts of Climate Change](#5-drought-risk-assessment-due-to-impacts-of-climate-change-2019)
 6. [Landfast Sea Ice Concentration over Hudson Bay Canada](#6-landfast-sea-ice-concentration-over-hudson-bay-canada-2020)
 7. [GeoVisual Analytics](#7-geovisual-analytics-2020)
-8. [NVIDIA Disaster Risk Monitoring Using Satellite Imagery](#8-nvidia-disaster-risk-monitoring-using-satellite-imegery-2024)
+8. [NVIDIA Disaster Risk Monitoring Using Satellite Imagery](#8-nvidia-disaster-risk-monitoring-using-satellite-imagery-2024)
 9. [Processing and Querying Multidimentional Raster Data by using Knowledge Graph (KG)](#9-processing-and-querying-multidimentional-raster-data-by-using-knowledge-graph-2022-ongoing)
 
 ## 1. Master's Thesis (2018)
@@ -20,13 +20,24 @@ Contains my contributions on the several projects in **geospatial** field.
 
 - Detection and Classification of Aerosol Distributuon Propoerties (Smoke and Dust Particles) and Vertical Profile of the Earth's Atomoshphere during FOoest Fire Event over a chosen **Areas of Interest (AOI)** using satellite imageries from remote sensors of NASA, ESA, ISRO.
 
+
 ### 1.2. Data
 
-- CALIPSO:
-- MODIS:
-- OMI:
-- NOAA:
-- MISR:
+Retrieved disparate datasources including raster array, geomtrical data, tabular data from the following remote sensors
+
+- Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observations ([CALIPSO](https://www-calipso.larc.nasa.gov/about/))
+- Moderate resolution Imaging Spectroradiometer ([MODIS](https://modis.gsfc.nasa.gov/data/))
+- Ozone Monitoring Instrument ([OMI](https://aura.gsfc.nasa.gov/omi.html))
+- National Oceanic and Atmospheric Administration ([NOAA](https://gml.noaa.gov/aero/science/))
+- Multiangle Imaging SpectroRadiometer ([MISR](https://misr.jpl.nasa.gov/mission/introduction/))
+- Hybrid Single Particle Lagrangian Integrated Trajectory Model ([HYSPLIT](https://www.arl.noaa.gov/hysplit/))
+- Global Administrative Areas ([GADM](https://gadm.org/)) - Country Boundaries (geometries)
+
+#### 1.2.1 Formats
+- NetCDF4
+- HDF
+- CSV
+- SQL
 
 ### 1.3. Course of Action
 
@@ -40,7 +51,9 @@ Contains my contributions on the several projects in **geospatial** field.
 
 - Vertical Feature Profiling of Atmosphere
 
-### 1.4. Visualization
+- **For more detals check the Thesis** ([.pdf](https://drive.google.com/file/d/1fT4-MToWqFJexTumgkoG0wUbIhCh9FhH/view))
+
+### 1.4. Visualization (selected)
 
 <img src="./Visuals/FirePoints.PNG">
 
@@ -227,16 +240,31 @@ Screenshots of Spatial Decision Support System (SDSS)
 
 ### 7.3. Course of Action
 
-Used the following python packages to extratc information
+#### Set Up Local Environment
 
-- numpy
-- pandas
-- geopandas
-- xarray
-- rasterio
-- rioxarray
-- netcdf5
-- shapely
+- Create a virtual environment myvenv and activate it:
+
+```sh
+python -m venv myvenv
+```
+```
+.\myvenv\Scripts\activate    # On Windows
+
+# ---------------------- OR ---------------------- #
+
+source myvenv/bin/activate  # On Linux or Mac
+```
+#### Install dependencies:
+
+```sh
+pip install -r requirements.txt
+```
+#### 🧪 Experiment with code if you want
+
+```sh
+jupyter notebook
+```
+
 
 ### 7.4. Visualization
 
@@ -265,12 +293,12 @@ This is an [NVIDIA course](https://learn.nvidia.com/courses/course-detail?course
 
 - **Tools, libraries, frameworks used**: NVIDIA DALI, NVIDIA TAO Toolkit, NVIDIA TensorRT, and NVIDIA Triton Inference Server.
 
-- Check out the jupyter [notebook]()
+- Check out the jupyter [notebook](https://github.com/aghoshpro/myGIS/blob/main/Project%208%20-%20Nvidia-Disaster-Risk-Monitoring-Using-Satellite-Imagery/01_disaster_risk_monitoring_systems_and_data_pre-processing.ipynb)
 
 ### 8.4. Visualization
   <img src="./Visuals/sarimage.png">
 
-## 9. Processing and Querying Multidimentional Raster Data by using Knowledge Graph (2022-Onging)
+## 9. Processing and Querying Multidimentional Raster Data by using Knowledge Graph (2022-Ongoing)
 
 ### 9.1. Aim
 

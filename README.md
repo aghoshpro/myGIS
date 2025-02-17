@@ -2,11 +2,23 @@
 
 Contains my contributions on the several projects in **geospatial** field.
 
-## 1. Master's Thesis
+## Table of Contents
+
+1. [Master's Thesis](#1-masters-thesis-2018)
+2. [Impact of Atmospheric Parameters over Snow Cover of Himalayan Region](#2-impact-of-atmospheric-parameters-over-snow-cover-of-himalayan-region-2018)
+3. [Estimation of Ground Water Storage (GWS) Over India's Major River Basins using Gravitational Anomaly Data](#3-estimation-of-ground-water-storage-gws-over-indias-14-major-river-basins-using-gravitational-anomaly-data-2019)
+4. [Seasonal Change in Sea Surface Temperature (SST) Distribution](#4-seasonal-change-in-sea-surface-temperature-sst-distribution-2019)
+5. [Drought Risk Assessment due to impacts of Climate Change](#5-drought-risk-assessment-due-to-impacts-of-climate-change-2019)
+6. [Landfast Sea Ice Concentration over Hudson Bay Canada](#6-landfast-sea-ice-concentration-over-hudson-bay-canada-2020)
+7. [GeoVisual Analytics](#7-geovisual-analytics-2020)
+8. [NVIDIA Disaster Risk Monitoring Using Satellite Imagery](#8-nvidia-disaster-risk-monitoring-using-satellite-imegery-2024)
+9. [Processing and Querying Multidimentional Raster Data by using Knowledge Graph (KG)](#9-processing-and-querying-multidimentional-raster-data-by-using-knowledge-graph-2022-ongoing)
+
+## 1. Master's Thesis (2018)
 
 ### 1.1. Aim
 
-- Smoke and Dust Particle Detection due to Forest Fire over a selected **Areas of Interest (AOI)** using satellite imageries from remote sensors of NASA, ISRO.
+- Detection and Classification of Aerosol Distributuon Propoerties (Smoke and Dust Particles) and Vertical Profile of the Earth's Atomoshphere during FOoest Fire Event over a chosen **Areas of Interest (AOI)** using satellite imageries from remote sensors of NASA, ESA, ISRO.
 
 ### 1.2. Data
 
@@ -18,11 +30,13 @@ Contains my contributions on the several projects in **geospatial** field.
 
 ### 1.3. Course of Action
 
-- Check existence of forest fire
+- Choose Area of Interest (AOI)
 
-- Land Surface Temperature (LST) of the area of interest
+- Check existence of forest fire over AOI
 
-- Aerosol Optical Depth (AOD)
+- If found then check MODIS Land Surface Temperature (LST) over AOI
+
+- Aerosol Optical Depth (AOD) Over AOI - Process raster array data from MODIS, MISR, OMI to visualize over map.
 
 - Vertical Feature Profiling of Atmosphere
 
@@ -42,7 +56,7 @@ Contains my contributions on the several projects in **geospatial** field.
 
 > Biswas, Soubhik, Manu Mehta, and Arka Ghosh. "[Study of Aerosol Distribution in the Vertical Air Column of Atmosphere during Uttarakhand Forest Fires 2016](https://doi.org/10.1109/rteict42901.2018.9012355)." _In the 3rd International Conference on Recent Trendsin Electronics, Information and Communication Technology (RTEICT). IEEE_ 2018.
 
-## 2. Impact of Atmospheric Parameters over Snow Cover of Himalayan Region
+## 2. Impact of Atmospheric Parameters over Snow Cover of Himalayan Region (2018)
 
 ### 2.1. Aim
 
@@ -78,7 +92,7 @@ Contains my contributions on the several projects in **geospatial** field.
 
 > Biswas, Soubhik, Manu Mehta, and Arka Ghosh. "[On the trends in snow cover during the winter season over the north – eastern himalayas (2000 – 2018)](https://drive.google.com/file/d/1R6bqxwA7jmEWZEkM2r9wDMBEnT-jlrci/view)." _Journal of Remote Sensing \& GIS, 10(1), pp.1-8. ISSN: 2230-7990 (Online), ISSN: 2321-421X (Print) Volume 10, Issue 1_ 2019.
 
-## 3. Estimation of Ground Water Storage (GWS) Over India's Major River Basins using Gravitational Anomaly Data
+## 3. Estimation of Ground Water Storage (GWS) Over India's 14 Major River Basins using Gravitational Anomaly Data (2019)
 
 ### 3.1. Aim
 
@@ -115,7 +129,7 @@ Following figure depicts all 14 major river basins of India as areas of interest
 
 <!-- > Ghosh, Arka, Manu Mehta, Soubhik Biswas, Mahak Gumber, and Meghna Mittal. "[Absorbing Aerosol Levels Across The Central And Western Himalayan Region–A Remote Sensing Approach](https://doi.org/10.5194/isprs-archives-XLII-5-519-2018)." _The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences pp-519-522 (v42)_ 2018. -->
 
-## 4. Seasonal Change in Sea Surface Temperature (SST) Distribution
+## 4. Seasonal Change in Sea Surface Temperature (SST) Distribution (2019)
 
 ### 4.1. Aim
 
@@ -139,7 +153,7 @@ Slope of SST changes over Bay of Bengal and Mediterranean Sea.
 
 > Ghosh, Arka, Anirban Mukhopadhyay, Niloy Pramanick, Soubhik Biswas, Debashis Mitra, and Tuhin Ghosh. "[Interannual and intraannual comparative study of sea surface temperature distribution over the Bay of Bengal, the Arabian Sea, and the Mediterranean Sea within the time frame of 2003–18](https://doi.org/10.1016/B978-0-323-85195-4.00023-8)." _In Disaster Resilience and Sustainability, Elsevier_, 2021.
 
-## 5. Drought Risk Assessment due to impacts of Climate Change
+## 5. Drought Risk Assessment due to impacts of Climate Change (2019)
 
 ### 5.1. Aim
 
@@ -175,7 +189,7 @@ Screenshots of Spatial Decision Support System (SDSS)
 
 > Soubhik Biswas, Ghosh, Arka, Niloy Pramanick, Anirban Mukhopadhyay and Sugata Hazra.. "[Spatial Decision Support System for Climate Change Impact Assessment in> Selected Blocks of Purulia and Bankura](https://imetsociety.org/wp-content/pdf/vayumandal/2020462/2020462_9.pdf)." _VayuMandal Publication, Vol 46, Issue 2, Indian Meteorological Society (IMS)_, 2020.
 
-## 6. Landfast Sea Ice Concentration over Hudson Bay, Canada
+## 6. Landfast Sea Ice Concentration over Hudson Bay Canada (2020)
 
 ### 6.1. Aim
 
@@ -189,7 +203,7 @@ Screenshots of Spatial Decision Support System (SDSS)
 
 ### 6.3. Course of Action
 
-### 6.4. Visualization
+### 6.4. Visualization (QGIS)
 
 <img src="./Visuals/Hudson_Bathymetry_2002 (1).png">
 
@@ -198,9 +212,7 @@ Screenshots of Spatial Decision Support System (SDSS)
 <img src="./Visuals/SDSS_01.PNG">
 <img src="./Visuals/SDSS_02.PNG"> -->
 
-# Off to PhD in Europe 🌍 ✈
-
-## 7. GeoVisual Analytics (using Pyyhon)
+## 7. GeoVisual Analytics (2020)
 
 ### 7.1. Aim
 
@@ -211,7 +223,7 @@ Screenshots of Spatial Decision Support System (SDSS)
 ### 7.2. Data
 
 - Gridded precipitation data (from CPC)
-- CPC Unified Gauge-Based Analysis of Daily Precipitation over CONUS[link](https://psl.noaa.gov/data/gridded/data.unified.daily.conus.html)
+- CPC Unified Gauge-Based Analysis of Daily Precipitation ([link](https://psl.noaa.gov/data/gridded/data.unified.daily.conus.html))
 
 ### 7.3. Course of Action
 
@@ -228,32 +240,64 @@ Used the following python packages to extratc information
 
 ### 7.4. Visualization
 
-- Check out the jupyter [notebook]()
+- Check out the jupyter [notebook](https://github.com/aghoshpro/myGIS/blob/main/Project%207%20-%20GeoVisualAnalytics%20(GeoVA)/Geospatial%20Data%20Analytics.ipynb)
 
-## 8. Semantic Querying over Geo-spatial-temporal Raster Data by using Knowledge Graph (KG)
+# Off to PhD in Europe 🌍 ✈
 
+## 8. NVIDIA Disaster Risk Monitoring Using Satellite Imagery (2024)
+
+This is an [NVIDIA course](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-ES-01+V1) where I learn to build and deploy a deep learning model to automate the detection of flood events using satellite imagery. This workflow can be applied to lower the cost, improve the efficiency, and significantly enhance the effectiveness of various natural disaster management use cases.
 ### 8.1. Aim
 
-**Query** - List all the 30 meters tall residentials in Munich where average terrain elevation less than 550 meters and average land surface temperature is over 300K, given the following data.
-
-**NOTE** - Provided that one dont know (or minimally) any required domain knowledge reagrding the geospatial satellite data or database technology.
+- Implement a machine learning workflow for disaster management solutions
+- Use hardware accelerated tools to process large satellite imagery data
+- Apply transfer-learning to cost-efficiently build deep learning segmentation models
+- Deploy deep learning models for near real-time analysis
+- Utilize deep learning-based model inference to detect and respond to flood event
 
 ### 8.2. Data
+
+- [Sentinel-1 SAR](https://github.com/cloudtostreet/Sen1Floods11) -  available from [ESA](https://www.esa.int/) via the [Copernicus Open Access Hub](https://scihub.copernicus.eu/). Also, available via NASA's [EARTHDATASEARCH](https://search.earthdata.nasa.gov/) or [Vertex](https://search.asf.alaska.edu/#/), Alaska Satellite Facility's data portal. 
+
+<!-- - They are organized as tiles, which is the process of subdividing geographic data into pre-defined roughly-squares. Tile-based mapping efficiently renders, stores, and retrieves image data. -->
+
+### 8.3. Course of Action
+
+- **Tools, libraries, frameworks used**: NVIDIA DALI, NVIDIA TAO Toolkit, NVIDIA TensorRT, and NVIDIA Triton Inference Server.
+
+- Check out the jupyter [notebook]()
+
+### 8.4. Visualization
+  <img src="./Visuals/sarimage.png">
+
+## 9. Processing and Querying Multidimentional Raster Data by using Knowledge Graph (2022-Onging)
+
+### 9.1. Aim
+
+- Researching on a knowledge graph (KG) based solution where user with minimal or no domain specific knowledge can query multidimentional raster data e.g., elevation, temperature etc. combined with tabular data, vector geometrical data including OpenStreetMap (OSM), 3DCityGML Bulding data etc.
+
+- Considering different W3C-semantic-web standard ontologies which conceptualize the domain specific knoeldge (e.g., geospatial, robotics, medical) that frees the end user from the burdan of knowing data struture and can query the knowledge graph. 
+
+<!-- - **NOTE** - Provided that user does not know (or minimally) any required domain knowledge reagrding the geospatial satellite data or database technology. -->
+
+### 9.2. Data
 
 - Vector Data (Munich's 25 distrcts and 105 sub-districts)
 - OpenStreetMap Buildings Data
 - 3DCityGML LOD2 Buildings Data
 - 5 Types of Raster data
 
+**Query** - List all the 30 meters tall residentials in Munich where average terrain elevation less than 550 meters and average land surface temperature is over 300K, given the following data.
+
 <img src="./Visuals/AOIMunich04.PNG">
 
-### 8.3. Course of Action
+### 9.3. Course of Action
 
 Using our developed novel _Virtual Knowledge Graph (VKG)_ framework [OntoRaster](https://github.com/aghoshpro/OntoRaster.git), we integrate and query the combined data without writing any ad-hoc script (in python or R) to access the different disparate formated geospatial data with minimal amount domain knowledge.
 
 - OntoRaster can be applied to any arbritary geospatial data inclding the aforementioned data but limited to.
 
-### 8.4. Visualization
+### 9.4. Visualization
 
 Here one can see the RasSPARQL queries in action.
 

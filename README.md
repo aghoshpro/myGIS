@@ -1,6 +1,6 @@
 # Geographic Information System (GIS) Projects
 
-Contains my contributions on the several projects in **GeoInformatics** field powered by my theoritical knowledge and working proficiency in computer science (CS) and GIS.
+Contains my contributions on the several projects in **GeoInformatics** field powered by my theoretical knowledge and working proficiency in computer science (CS) and GIS.
 
 ## Table of Contents
 
@@ -12,18 +12,18 @@ Contains my contributions on the several projects in **GeoInformatics** field po
 6. [Landfast Sea Ice Concentration over Hudson Bay Canada](#6-landfast-sea-ice-concentration-over-hudson-bay-canada-2020)
 7. [GeoVisual Analytics](#7-geovisual-analytics-2020)
 8. [NVIDIA Disaster Risk Monitoring Using Satellite Imagery](#8-nvidia-disaster-risk-monitoring-using-satellite-imagery-2024)
-9. [Processing and Querying Multidimentional Raster Data by using Knowledge Graph (KG)](#9-processing-and-querying-multidimentional-raster-data-by-using-knowledge-graph-2022-ongoing)
+9. [Processing and Querying Multidimensional Raster Data by using Knowledge Graph (KG)](#9-processing-and-querying-multidimentional-raster-data-by-using-knowledge-graph-2022-ongoing)
 
 ## 1. Master's Thesis (2018)
 
 ### 1.1. Aim
 
-- Detection and Classification of Aerosol Distributuon Propoerties (Smoke and Dust Particles) and Vertical Profile of the Earth's Atomoshphere during FOoest Fire Event over a chosen **Areas of Interest (AOI)** using satellite imageries from remote sensors of NASA, ESA, ISRO.
+- Detection and Classification of Aerosol Distribution Properties (Smoke and Dust Particles) and Vertical Profile of the Earth's Atmosphere during Forest Fire Event over a chosen **Areas of Interest (AOI)** using satellite imageries from remote sensors of NASA, ESA, ISRO.
 
 
 ### 1.2. Data
 
-Retrieved disparate datasources including raster array, geomtrical data, tabular data from the following remote sensors
+Retrieved disparate datasources including raster array, geometrical data, tabular data from the following remote sensors
 
 - Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observations ([CALIPSO](https://www-calipso.larc.nasa.gov/about/))
 - Moderate resolution Imaging Spectroradiometer ([MODIS](https://modis.gsfc.nasa.gov/data/))
@@ -51,7 +51,7 @@ Retrieved disparate datasources including raster array, geomtrical data, tabular
 
 - Vertical Feature Profiling of Atmosphere
 
-- **For more detals check the Thesis** ([.pdf](https://drive.google.com/file/d/1fT4-MToWqFJexTumgkoG0wUbIhCh9FhH/view))
+- **For more details check the Thesis** ([.pdf](https://drive.google.com/file/d/1fT4-MToWqFJexTumgkoG0wUbIhCh9FhH/view))
 
 ### 1.4. Visualization (selected)
 
@@ -87,7 +87,7 @@ Retrieved disparate datasources including raster array, geomtrical data, tabular
 
 ### 2.3. Course of Action
 
-- Compute and visualize snow cover distribution over Hindu Kush Himalayan (HKH) Region at differen t altitude levels. (1000-8000 meters)
+- Compute and visualize snow cover distribution over Hindu Kush Himalayan (HKH) Region at different altitude levels. (1000-8000 meters)
 
 - Visualize aerosol distribution over the same region.
 
@@ -164,7 +164,7 @@ Slope of SST changes over Bay of Bengal and Mediterranean Sea.
 
 ### 4.5. Publication
 
-> Ghosh, Arka, Anirban Mukhopadhyay, Niloy Pramanick, Soubhik Biswas, Debashis Mitra, and Tuhin Ghosh. "[Interannual and intraannual comparative study of sea surface temperature distribution over the Bay of Bengal, the Arabian Sea, and the Mediterranean Sea within the time frame of 2003–18](https://doi.org/10.1016/B978-0-323-85195-4.00023-8)." _In Disaster Resilience and Sustainability, Elsevier_, 2021.
+> Ghosh, Arka, Anirban Mukhopadhyay, Niloy Pramanick, Soubhik Biswas, Debashis Mitra, and Tuhin Ghosh. "[Inter-annual and intra-annual comparative study of sea surface temperature distribution over the Bay of Bengal, the Arabian Sea, and the Mediterranean Sea within the time frame of 2003–18](https://doi.org/10.1016/B978-0-323-85195-4.00023-8)." _In Disaster Resilience and Sustainability, Elsevier_, 2021.
 
 ## 5. Drought Risk Assessment due to impacts of Climate Change (2019)
 
@@ -206,7 +206,7 @@ Screenshots of Spatial Decision Support System (SDSS)
 
 ### 6.1. Aim
 
-- Comparative analysis of Canadian Ice Service ice charts to characterize the temporal and spatial variability of landfast sea ice (or fast ice) surrounding Hudson Bay from 2000 to 2019.
+- Comparative analysis of Canadian Ice Service ice charts to characterize the temporal and spatial variability of sea ice (or fast ice) surrounding Hudson Bay from 2000 to 2019.
 
 ### 6.2. Data
 
@@ -270,7 +270,7 @@ jupyter notebook
 
 - Check out the jupyter [notebook](https://github.com/aghoshpro/myGIS/blob/main/Project%207%20-%20GeoVisualAnalytics%20(GeoVA)/Geospatial%20Data%20Analytics.ipynb)
 
-# Off to PhD in Europe 🌍 ✈
+# Off to Europe 🌍 ✈ for PhD
 
 ## 8. NVIDIA Disaster Risk Monitoring Using Satellite Imagery (2024)
 

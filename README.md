@@ -1,6 +1,32 @@
 # Geographic Information System (GIS) Projects
 
-Contains my contributions on the several projects in **GeoInformatics** field powered by my theoretical knowledge and working proficiency in computer science (CS) and GIS.
+<img src="GeoStack.jfif">
+
+
+I integrate massive amount of **raster, vector, lider, OpenStreetMap** and **3DCityGML** data using **Python, SQL**, and **R** for ingestion, processing, spatial-temporal analysis, and geo database management. I automate geo-processing and publish GIS services using ArcPy and ESRI ArcGIS APIs. I build reliable, scalable workflows supporting forest classification, environmental monitoring, and interactive geospatial visualization.
+
+My goal is to transform heterogeneous geospatial data into reliable, scalable GIS services that support geospatial analysis, vegetation monitoring, urban planning and better decision-making.
+
+Checkout my projects below
+
+## End-to-End Goospatial Data Integration Workflow
+
+- **Data ingestion**: Use Python to ingest raw multidimensional raster data, vector datasets, satellite imagery, and OpenStreetMap data from multiple sources.
+
+- **Data processing**: Use Python libraries such as GeoPandas, Rasterio, and ArcPy to clean, transform, reproject, and process raster and vector data. Use R for statistical analysis and environmental modelling where appropriate.
+
+- **Spatial database**: Write SQL + PostGIS functions to store, query, join, and validate spatial datasets, ensuring data consistency and efficient spatial-temporal queries.
+
+- **Spatial analysis**: Perform raster analysis, NDVI calculations, forest classification, and spatial overlays to derive meaningful geospatial insights over a time period.
+
+- **Esri integration**: Use ArcPy and the ESRI ArcGIS API for Python to automate geoprocessing, manage GIS content, and publish processed datasets as feature services or imagery layers, depending on the architecture.
+
+- **Visualization**: Make the results accessible through ArcGIS applications or web maps, with Leaflet or Folium as alternatives for custom interactive mapping.
+
+<!-- ## Tech Stack
+### Python, R, SQL, PostGIS, ESRI ArcGIS Online, ESRI ArcGIS API, QGIS, ArcPY, Pandas, GeoPandas -->
+
+<!-- Contains my contributions on the several projects in **GeoInformatics** field powered by my theoretical knowledge and working proficiency in computer science (CS) and GIS. -->
 
 ## Table of Contents
 
@@ -321,12 +347,23 @@ This is an [NVIDIA course](https://learn.nvidia.com/courses/course-detail?course
 
 ### 9.3. Course of Action
 
-Using our developed novel _Virtual Knowledge Graph (VKG)_ framework [OntoRaster](https://github.com/aghoshpro/OntoRaster.git), we integrate and query the combined data without writing any ad-hoc script (in python or R) to access the different disparate formated geospatial data with minimal amount domain knowledge.
+I developed nove GIS framework [OntoRaster](https://github.com/aghoshpro/OntoRaster.git), to integrate and query the combined geospatial data to access and process disparate geospatial data 
 
-- OntoRaster can be applied to any arbritary geospatial data inclding the aforementioned data but limited to.
+- OntoRaster can be applied to any arbritary geospatial data inclding the aforementioned data.
+
+- LLM powered SQL and SPARQL query generation over integrated data. 
+
+- Checkout [OntoRaster](https://github.com/aghoshpro/OntoRaster.git) for more details
+
+- Check out the [Thesis Work](https://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-250923)
+
+```
+Keywords: Artificial Intelligence (AI), Semantic Web (SW), Business Intelligence (BI), Virtual Knowledge Graph (VKG), Multidimensional Raster Data, Relational Data, Vector Data, Linked Data, Large Language Models (LLMs)
+```
 
 ### 9.4. Visualization
 
 Here one can see the RasSPARQL queries in action.
 
 <img src="./Visuals/Munich02.gif">
+
